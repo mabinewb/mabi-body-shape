@@ -15,8 +15,11 @@
     <body>
         <div style="margin:auto; width: fit-content; text-align: center;">
             <h1>마비노기 체형 확인</h1>
-            <h4>아래 링크를 끌어서 북마크바에 추가하세요.</h4>
+            <h4>아래 링크를 끌어서 북마크바에 올려놓으면 북마크가 추가됩니다.</h4>
+            <h4>북마크바가 표시되지 않는 경우 Ctrl+Shift+B 단축키로 북마크바를 활성화할 수 있습니다.</h4>
             <a href="javascript:$.ajax({url : '/dressroom/data/characterapi.asp',type : 'POST',contentType:'application/json',success : function(data){alert('키(10살:0 ~ 17살:1 상대수치) : ' + data.gc_height + '\n몸무게(비만도) : ' + data.gc_weight + '\n상체(근육) : ' + data.gc_upper_weight + '\n하체 : ' + data.gc_lower_weight);}});">대표캐릭 체형 확인</a>
+            <h4>사용 방법 : 마비노기 공식 홈페이지에서 로그인 후 추가한 북마크를 클릭하세요.</h4>
+            <h4>체형 수치가 팝업으로 표시됩니다.</h4>
         </div>
     </body>
 </html>
